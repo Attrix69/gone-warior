@@ -1,0 +1,26 @@
+{
+  "name": "gone-warrior",
+  "private": true,
+  "version": "2.0.0",
+  "description": "Gone Warrior — La Gniac du Gone : jeu d'action 3D dans un Lyon fictif, jouable dans le navigateur.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173 --strictPort",
+    "assets": "node tools/extract-assets.mjs",
+    "test:smoke": "node tests/smoke.mjs"
+  },
+  "dependencies": {
+    "@fontsource/barlow-condensed": "5.3.0",
+    "@fontsource/inter": "5.3.0",
+    "n8ao": "2.0.1",
+    "postprocessing": "6.39.5",
+    "three": "0.186.0"
+  },
+  "devDependencies": {
+    "@pmndrs/assets": "1.7.0",
+    "playwright": "1.56.1",
+    "vite": "8.3.1"
+  }
+}
